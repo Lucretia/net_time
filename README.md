@@ -2,6 +2,9 @@
 
 This is an Ada 2012 library that implements the internet time protocol, [RTF3339](http://tools.ietf.org/html/rfc3339).
 
+Leap seconds are not supported as yet as Ada's seconds range is 0 .. 59 and does not include 60, which the RFC does. I
+also have no clue, yet, how to implement it.
+
 # Building
 
 ## GNAT
